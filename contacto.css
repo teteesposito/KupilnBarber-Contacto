@@ -1,0 +1,106 @@
+*{
+	font-family: outfit;
+}
+
+#titulo {
+	display: inline;
+	font-size: 50px;
+	border: 3px solid black;
+	border-radius: 5px;
+	background-color: white;
+	text-align: center;
+	padding: 5px;
+}
+body {
+	background-image: url(descarga.jpg);
+	background-position: center center;
+	background-size: cover;
+	margin-left: 0px;
+	margin-right: 0px;
+	margin-top: 10px;
+}
+
+nav{
+	background-color: rgba(0,0,0,0.9);
+	padding: 5px, 0px;
+	border: 1px solid black;
+	margin: 10px 0px;
+	max-height: 52px;
+}
+
+ul{
+	list-style: none;
+	text-align: right;
+	max-height: 20px;
+}
+
+li{
+	display: inline;
+	margin: 0px 10px;
+
+}
+
+li a:link{
+	color:white;
+	text-decoration: none;
+}
+
+li a:visited{
+	color: white;
+	text-decoration: none;
+}
+
+li a:hover{
+	color: #666;
+	text-decoration: underline;
+	cursor: pointer;
+}
+
+li a:active{
+	color: #ddd;
+}
+
+a{
+	transition: color 0.3s ease;s
+}
+
+#redes{
+	background-color: rgba(255,255,255,0.7);
+	margin: 10px auto;
+	padding-bottom: 15px;
+}
+
+div a{
+	margin: 10px
+
+}
+
+div a:link{
+	color: black;
+	text-decoration: none;
+}
+
+div a:visited{
+	color: black;
+	text-decoration: none;
+}
+
+div a:hover{
+	color: #777;
+	text-decoration: underline;
+	cursor: pointer;
+}
+
+div a:active{
+	color: #ddd;
+}
+
+div p{
+	font-size: 25px;
+	margin: 10px 0px;
+}
+
+
+
+
+
